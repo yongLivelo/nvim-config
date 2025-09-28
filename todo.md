@@ -1,7 +1,6 @@
 # to do
 
 - add the following plugins:
-  - lazygit
   - gp.nvim
   - nvim.jdtls
   - oil.nvim
