@@ -55,21 +55,6 @@ return {
   },
 
   {
-    -- Still needs work
-    "robitx/gp.nvim",
-    lazy = false, -- ✅ always load at startup
-    dependencies = { "nvim-lua/plenary.nvim" },
-    config = function()
-      require("gp").setup({
-        openai_api_key = os.getenv("OPENAI_API_KEY"), -- ✅ make sure this is set before launching nvim
-      })
-
-      -- Example keymap to toggle chat
-      vim.keymap.set("n", "<leader>gp", ":GpChatToggle<CR>", { desc = "Toggle GP Chat" })
-    end,
-  },
-
-  {
     "kevinhwang91/nvim-ufo",
     dependencies = {
       { "kevinhwang91/promise-async" },
