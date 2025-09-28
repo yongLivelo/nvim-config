@@ -77,7 +77,15 @@ return {
   },
 
   { "nvim-java/nvim-java" },
-
+  {
+    "williamboman/mason.nvim",
+    config = true,
+  },
+  {
+    "williamboman/mason-lspconfig.nvim",
+    dependencies = { "neovim/nvim-lspconfig" },
+    config = true,
+  },
   {
     "stevearc/oil.nvim",
     ---@module 'oil'
