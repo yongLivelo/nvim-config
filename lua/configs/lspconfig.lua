@@ -19,7 +19,7 @@ mason_lspconfig.setup({
 })
 
 -- Enable multiple servers with defaults
-local servers = { "html", "cssls", "tsserver" }
+local servers = { "html", "cssls", "tsserver", "marksman" }
 vim.lsp.enable(servers)
 
 -- Emmet
