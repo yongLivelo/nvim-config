@@ -1,5 +1,4 @@
 ---
-
 ## 1. **Neovim Setup**
 - **Base Config**
   - Start from **Kickstart.nvim** as foundation
