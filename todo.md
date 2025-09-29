@@ -1,13 +1,11 @@
----
+notes_clean = """# 📝 Neovim + Terminal + Tmux Setup Notes
 
-## 1. **Neovim Setup**
+## 1. Neovim Setup
 - **Base Config**
   - Start from **Kickstart.nvim** as foundation
   - Use **lazy.nvim** for plugin management
 
----
-
-### 🔌 Plugins to Install
+### Plugins to Install
 - **Core**
   - `telescope.nvim` (fuzzy finder)
   - `nvim-treesitter` (better syntax highlighting, parsing)
@@ -30,9 +28,7 @@
   - `gp.nvim` (AI/code assistance)
   - `lazygit.nvim` (git inside nvim)
 
----
-
-### ⚙️ LSP Setup (via Mason + lspconfig)
+### LSP Setup (via Mason + lspconfig)
 - **Frontend / Web**
   - `typescript-language-server` (JS, TS, React)
   - `css-lsp` (CSS)
@@ -58,9 +54,7 @@
 - **Formatters**
   - Prettier (JS/TS/React/Markdown/etc.)
 
----
-
-### ⌨️ Key Mappings
+### Key Mappings
 - **Leader Key** → `Space`
 
 - **Normal Mode**
@@ -88,9 +82,7 @@
 - **Save (all modes)**
   - `<C-s>` → save file
 
----
-
-## 2. **Terminal Setup**
+## 2. Terminal Setup
 - **Default Shell**: `zsh`
 - **Framework**: Oh My Zsh
 - **Plugins**:
@@ -100,9 +92,7 @@
 - **Terminal Emulator**: WezTerm
 - **Theme**: Catppuccin (match Neovim + Tmux)
 
----
-
-## 3. **Tmux Setup**
+## 3. Tmux Setup
 - **Leader Key**: `Ctrl-Space`
 - **Plugin Manager**: TPM
 - **Plugins**:
@@ -119,4 +109,7 @@
 - **Design**:
   - Catppuccin theme across Tmux + Terminal + Neovim
 
----
+## 4. Stretch Goal: OS + Desktop
+- If possible, install **Arch Linux** for a more customizable dev environment
+- Use **Hyprland** (wayland compositor) for a tiling window manager experience
+- Pair with **Waybar**, **wofi**, **kitty/wezterm**, and Catppuccin theming for a consistent UI
