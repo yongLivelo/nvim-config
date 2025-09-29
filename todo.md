@@ -1,6 +1,8 @@
 ---
 
 ## 1. **Neovim Setup**
+- **Base Config**
+
 
 ---
 
