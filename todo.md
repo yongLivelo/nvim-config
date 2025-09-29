@@ -1,7 +1,7 @@
 ---
 
 ## 1. **Neovim Setup**
-
+- **Base Config**
   - Start from **Kickstart.nvim** as foundation
   - Use **lazy.nvim** for plugin management
 
