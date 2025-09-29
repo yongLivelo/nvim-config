@@ -1,5 +1,3 @@
-notes_clean = """# 📝 Neovim + Terminal + Tmux Setup Notes
-
 ## 1. Neovim Setup
 - **Base Config**
   - Start from **Kickstart.nvim** as foundation
